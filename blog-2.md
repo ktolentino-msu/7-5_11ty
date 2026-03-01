@@ -6,6 +6,8 @@ title: First Light
 <!--> This is a blog post generayed by ChatGPT.<!-->
 <!--> My prompt was: "Hey chat, Write two blog posts from the perspective of a lone human interstellar explorer. The blog posts should be roughly 500 words give or take."<!-->
 
+<img class="about" alt="pine" src="/images/stars2.png" width="50" />
+
 # {{ title }}
 
 There is a particular shade of green that does not exist on Earth.

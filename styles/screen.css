@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap');
+
 body {
-    font-family: Helvetica, sans-serif;
+    font-family: "DM Mono", monospace;
     color: #EAE8FF;
     background: #2D3142;
     padding: 0 40px;
@@ -38,13 +40,33 @@ h1 {
     letter-spacing: -2px;
 }
 
-h1 strong {
-    background: rgb(34,193,195);
-    background: linear-gradient(45deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+
+.blogs img {
+    border-radius: 8px;
 }
 
-img.about {
-    opacity: 0.5;
+.blogs a, .blogs a:visited {
+    color: red;
+    text-decoration: none;
+}
+
+.blogs {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.blog-card {
+    background-color: aqua;
+    flex-direction: row;
+    padding: 24px;
+    margin: 55px;
+    border-radius: 8px;
+}
+
+.individual-blog {
+    border-radius: 8px;
+    padding: 16px;
+    font-size: 20px;
+    font-weight: 600;
 }

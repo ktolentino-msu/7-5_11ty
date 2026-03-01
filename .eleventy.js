@@ -5,7 +5,7 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("styles");
 
   eleventyConfig.addShortcode("blog", function(blogPostTitle) {
-    return `<div class="blog">
-    <div class="blog_name">${blogPostTitle}</div> `
+    return `<div class="blog-card">
+    <div class="individual-blog">${blogPostTitle}</div> `
   });
 };
