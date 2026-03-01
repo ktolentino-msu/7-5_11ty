@@ -1,6 +1,6 @@
 ---
 layout: layout.liquid
-title: 11ty Boilerplate
+title: My first Post: The Quiet Between Stars
 ---
 
 // This is a blog post generayed by ChatGPT.

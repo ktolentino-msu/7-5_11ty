@@ -1,12 +1,12 @@
 ---
 layout: layout.liquid
-title: 11ty Boilerplate
+title: First Light
 ---
 
 // This is a blog post generayed by ChatGPT.
 // My prompt was: "Hey chat, Write two blog posts from the perspective of a lone human interstellar explorer. The blog posts should be roughly 500 words give or take."
 
-# TFirst Light on Kepler-442c
+# First Light on Kepler-442c
 
 There is a particular shade of green that does not exist on Earth.
 

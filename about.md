@@ -1,6 +1,6 @@
 ---
 layout: layout.liquid
-title: About
+title: About the Possible
 ---
 
 # About the Possible 
