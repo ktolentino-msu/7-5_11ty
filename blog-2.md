@@ -1,14 +1,16 @@
 ---
 layout: layout.liquid
+date: 2026-03-01
 title: First Light
 ---
 
-<!--> This is a blog post generayed by ChatGPT.<!-->
-<!--> My prompt was: "Hey chat, Write two blog posts from the perspective of a lone human interstellar explorer. The blog posts should be roughly 500 words give or take."<!-->
 
-<img class="about" alt="pine" src="/images/stars2.png" width="50" />
+
+<img class="about" alt="Stars" src="/images/stars2.png" width="500" />
 
 # {{ title }}
+
+{{ date }}
 
 There is a particular shade of green that does not exist on Earth.
 
@@ -45,3 +47,6 @@ But tonight, I am allowing myself to feel it: the quiet triumph of standing on s
 The universe is vast. It is indifferent.
 
 And still, it grows gardens.
+
+<!--> This is a blog post generayed by ChatGPT.<!-->
+<!--> My prompt was: "Hey chat, Write two blog posts from the perspective of a lone human interstellar explorer. The blog posts should be roughly 500 words give or take."<!-->
