@@ -12,12 +12,11 @@ body {
     font-family: "DM Mono", monospace;
     color: var(--text-primary);
     background-color: var(--background-primary);
-    padding: 0 40px;
     width: 100%;
+    margin: 0 auto;
     max-width: 800px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
 }
 
 nav {
@@ -58,32 +57,19 @@ p {
     color: var(--text-secondary);
 }
 
+.blogs {
+    background-color: var(--background-secondary);
+    padding: 24px;
+    border-radius: 8px;
+}
+
 .blogs img {
     border-radius: 8px;
 }
 
 .blogs a, .blogs a:visited {
-    color: var(--text-secondary);
-    text-decoration: none;
-}
-
-.blogs {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-
-.blog-card {
-    background-color: var(--background-secondary);
-    flex-direction: row;
-    padding: 24px;
-    margin: 55px;
-    border-radius: 8px;
-}
-
-.individual-blog {
-    border-radius: 8px;
-    padding: 16px;
-    font-size: 20px;
-    font-weight: 600;
+    color: var(--accent);
+    text-decoration: underline;
+    font-size: 1.5em;
+    font-weight: 700;
 }

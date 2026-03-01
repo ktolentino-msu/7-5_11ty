@@ -5,9 +5,6 @@ title: First Light
 ---
 
 
-
-<img class="about" alt="Stars" src="/images/stars2.png" width="500" />
-
 # {{ title }}
 
 {{ date }}
