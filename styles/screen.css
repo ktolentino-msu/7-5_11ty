@@ -1,17 +1,30 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap');
 
+:root {
+    --background-primary: #000;
+    --background-secondary: #373737;
+    --accent: #bde79a;
+    --text-primary: #fff;
+    --text-secondary: #ededed;
+}
+
 body {
     font-family: "DM Mono", monospace;
-    color: #EAE8FF;
-    background: #2D3142;
+    color: var(--text-primary);
+    background-color: var(--background-primary);
     padding: 0 40px;
+    width: 100%;
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 nav {
     margin: 40px auto 0 auto;
     width: 250px;
     border-radius: 50px;
-    background: #212431;
+    background: var(--background-secondary);
 }
 
 nav ul {
@@ -29,23 +42,28 @@ nav ul li {
 nav ul li a {
     display: inline-block;
     padding: 20px;
-    color: #EAE8FF;
+    color: var(--text-secondary);
     text-decoration: none;
     font-size: 1.2em;
 }
 
 h1 {
-    font-size: 8em;
+    font-size: 4em;
     letter-spacing: -2px;
+    color: var(--accent);
+    text-decoration: underline;
 }
 
+p {
+    color: var(--text-secondary);
+}
 
 .blogs img {
     border-radius: 8px;
 }
 
 .blogs a, .blogs a:visited {
-    color: red;
+    color: var(--text-secondary);
     text-decoration: none;
 }
 
@@ -56,7 +74,7 @@ h1 {
 }
 
 .blog-card {
-    background-color: aqua;
+    background-color: var(--background-secondary);
     flex-direction: row;
     padding: 24px;
     margin: 55px;

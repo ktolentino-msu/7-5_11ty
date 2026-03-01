@@ -8,4 +8,6 @@ module.exports = function(eleventyConfig) {
     return `<div class="blog-card">
     <div class="individual-blog">${blogPostTitle}</div> `
   });
+  
 };
+
